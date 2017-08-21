@@ -38,7 +38,7 @@
         self.image_weather.image = [UIImage imageNamed:@"小雨"];
     }else if ([weatherday isEqualToString:@"中雨"]){
         self.image_weather.image = [UIImage imageNamed:@"中雨"];
-    }else if ([weatherday isEqualToString:@"大雨"]){
+    }else if ([weatherday isEqualToString:@"大雨"] || [weatherday isEqualToString:@"大到暴雨"]){
         self.image_weather.image = [UIImage imageNamed:@"大雨"];
     }else if ([weatherday isEqualToString:@"雷阵雨"]){
         self.image_weather.image = [UIImage imageNamed:@"雷阵雨"];
